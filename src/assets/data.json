@@ -1,0 +1,35 @@
+{
+    "projects": [
+      {
+        "date": "07/10/2023",
+        "title": "Currency Converter",
+        "description": "This is a currency converter app which is made from Reactjs. It converts one form of currency to the another form. It helps to give real time data.",
+        "url": "https://currency-converter-eta-sand.vercel.app/",
+        "imgSrc": "https://images.pexels.com/photos/6771985/pexels-photo-6771985.jpeg"
+      },
+  
+      {
+        "date": "10/10/2022",
+        "title": "Password Generator",
+        "description": "This is a simple website which is used to create a password for the user for using it on the different different platforms. This website is made using Reactjs.",
+        "url": "https://password-generator-beige-eta.vercel.app/",
+        "imgSrc": "https://images.pexels.com/photos/5475760/pexels-photo-5475760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "date": "6/11/2023",
+        "title": "TechGrasp",
+        "description": "TechGrasp is an edtech platform which is used to provide new skills. This website is fully functional which is used to create, update, delete contents for the course Students who are enrolled in this course get benefits of learning that particular skills.",
+        "url": "#",
+        "imgSrc": "https://res.cloudinary.com/dmotjqzyi/image/upload/v1704197863/projects/TechGrasp_plrsos.jpg"
+      },
+  
+      {
+        "date": "02/01/2024",
+        "title": "PORTFOLIO",
+        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "url": "/",
+        "imgSrc": "https://res.cloudinary.com/dmotjqzyi/image/upload/v1704198437/projects/Screenshot_2024-01-02_175618_uhnclk.png"
+      }
+    ]
+  }
+  
