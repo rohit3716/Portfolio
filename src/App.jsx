@@ -7,7 +7,7 @@ import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import { Toaster } from "react-hot-toast"
 import { useState, useEffect } from "react"
-import About from "./components/About"
+// import About from "./components/About"
 
 
 function App() {
