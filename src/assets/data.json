@@ -1,6 +1,13 @@
 {
     "projects": [
       {
+        "date": "27/03/2024",
+        "title": "Bat-Chit",
+        "description": "This is a chat app which is made from MERN and SOCKET.IO. It helps to communicate with others in real time. In this app users can also watch who is online.",
+        "url": "https://chatapp-batchit.onrender.com/",
+        "imgSrc": "https://res.cloudinary.com/dmotjqzyi/image/upload/v1711550042/projects/Screenshot_2024-03-27_200142_egs4y9.png"
+      },
+      {
         "date": "07/10/2023",
         "title": "Currency Converter",
         "description": "This is a currency converter app which is made from Reactjs. It converts one form of currency to the another form. It helps to give real time data.",
