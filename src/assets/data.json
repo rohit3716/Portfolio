@@ -1,6 +1,13 @@
 {
     "projects": [
       {
+        "date": "22/07/2024",
+        "title": "HealthCare",
+        "description": "This is an healthcare application which can be used at hospitals to manage all the appointments.",
+        "url": "https://healthcare-app-neon.vercel.app/",
+        "imgSrc": "https://res.cloudinary.com/dmotjqzyi/image/upload/v1721642413/projects/carepulse_pic_aswedm.jpg"
+      },
+      {
         "date": "27/03/2024",
         "title": "Bat-Chit",
         "description": "This is a chat app which is made from MERN and SOCKET.IO. It helps to communicate with others in real time. In this app users can also watch who is online.",
