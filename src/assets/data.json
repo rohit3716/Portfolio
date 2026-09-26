@@ -1,49 +1,22 @@
 {
-    "projects": [
-      {
-        "date": "22/07/2024",
-        "title": "HealthCare",
-        "description": "This is an healthcare application which can be used at hospitals to manage all the appointments.",
-        "url": "https://healthcare-app-neon.vercel.app/",
-        "imgSrc": "https://res.cloudinary.com/dmotjqzyi/image/upload/v1721642413/projects/carepulse_pic_aswedm.jpg"
-      },
-      {
-        "date": "27/03/2024",
-        "title": "Bat-Chit",
-        "description": "This is a chat app which is made from MERN and SOCKET.IO. It helps to communicate with others in real time. In this app users can also watch who is online.",
-        "url": "https://chatapp-batchit.onrender.com/",
-        "imgSrc": "https://res.cloudinary.com/dmotjqzyi/image/upload/v1711550042/projects/Screenshot_2024-03-27_200142_egs4y9.png"
-      },
-      {
-        "date": "07/10/2023",
-        "title": "Currency Converter",
-        "description": "This is a currency converter app which is made from Reactjs. It converts one form of currency to the another form. It helps to give real time data.",
-        "url": "https://currency-converter-eta-sand.vercel.app/",
-        "imgSrc": "https://images.pexels.com/photos/6771985/pexels-photo-6771985.jpeg"
-      },
-  
-      {
-        "date": "10/10/2022",
-        "title": "Password Generator",
-        "description": "This is a simple website which is used to create a password for the user for using it on the different different platforms. This website is made using Reactjs.",
-        "url": "https://password-generator-beige-eta.vercel.app/",
-        "imgSrc": "https://images.pexels.com/photos/5475760/pexels-photo-5475760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      },
-      {
-        "date": "6/11/2023",
-        "title": "TechGrasp",
-        "description": "TechGrasp is an edtech platform which is used to provide new skills. This website is fully functional which is used to create, update, delete contents for the course Students who are enrolled in this course get benefits of learning that particular skills.",
-        "url": "#",
-        "imgSrc": "https://res.cloudinary.com/dmotjqzyi/image/upload/v1704197863/projects/TechGrasp_plrsos.jpg"
-      },
-  
-      {
-        "date": "02/01/2024",
-        "title": "PORTFOLIO",
-        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
-        "url": "/",
-        "imgSrc": "https://res.cloudinary.com/dmotjqzyi/image/upload/v1704198437/projects/Screenshot_2024-01-02_175618_uhnclk.png"
-      }
-    ]
-  }
-  
+  "projects": [
+    {
+      "date": "June 2024",
+      "title": "Healthcare Appointment System",
+      "description": "A full-stack healthcare platform for secure registration, doctor discovery, and appointment booking, with admin tools and automated SMS reminders.",
+      "details": "Built for smoother appointment management, with Twilio reminders and Sentry monitoring. The resume reports testing with 100+ users and a 30% reduction in manual scheduling time.",
+      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "Twilio", "Sentry"],
+      "url": "https://healthcare-app-neon.vercel.app/",
+      "imgSrc": "https://res.cloudinary.com/dmotjqzyi/image/upload/v1721642413/projects/carepulse_pic_aswedm.jpg"
+    },
+    {
+      "date": "March 2024",
+      "title": "chatApp — Real-Time Messaging",
+      "description": "A MERN and Socket.io messaging app with online presence, secure authentication, and persistent conversation history.",
+      "details": "Designed for low-latency conversations with bidirectional WebSocket communication. The resume reports support for 100+ concurrent users and sub-200ms message delivery in testing.",
+      "technologies": ["MongoDB", "Express", "React", "Node.js", "Socket.io"],
+      "url": "https://chatapp-batchit.onrender.com/",
+      "imgSrc": "https://res.cloudinary.com/dmotjqzyi/image/upload/v1711550042/projects/Screenshot_2024-03-27_200142_egs4y9.png"
+    }
+  ]
+}

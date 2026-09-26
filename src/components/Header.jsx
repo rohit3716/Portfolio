@@ -1,49 +1,37 @@
-import React from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
 
-const Header = ({setMenuOpen, menuOpen}) => {
-  return (
-  <>
-      <nav>
-        <NavContent setMenuOpen={setMenuOpen}/>
-      </nav>
-      <button className='navBtn' onClick={ () => setMenuOpen(!menuOpen)}>
-        <AiOutlineMenu/>
-      </button>    
-  </>
-  );
-};
+const links = [
+  ['Experience', '#experience'],
+  ['Projects', '#work'],
+  ['Skills', '#techstacks'],
+  ['About', '#about'],
+  ['Contact', '#contact'],
+]
 
-export const HeaderPhone = ({ menuOpen, setMenuOpen}) => {
-  return (
-    <div className={`navPhone ${menuOpen ? 'navPhoneComes':''}`}>
-      <NavContent setMenuOpen={setMenuOpen} />
+const Header = ({ setMenuOpen, menuOpen }) => (
+  <>
+    <nav className="site-nav">
+      <a className="brand" href="#home" onClick={() => setMenuOpen(false)}>rohit<span>.codes</span></a>
+      <div className="desktop-nav">
+        {links.map(([label, href]) => <a key={href} href={href}>{label}</a>)}
+      </div>
+      <a className="nav-resume" href="#contact">Let’s talk <span>↗</span></a>
+    </nav>
+    <button className="navBtn" aria-label={menuOpen ? 'Close navigation' : 'Open navigation'} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>
+      <AiOutlineMenu />
+    </button>
+  </>
+)
+
+export const HeaderPhone = ({ menuOpen, setMenuOpen }) => (
+  <div className={`navPhone ${menuOpen ? 'navPhoneComes' : ''}`} aria-hidden={!menuOpen}>
+    <a className="brand" href="#home" onClick={() => setMenuOpen(false)}>rohit<span>.codes</span></a>
+    <button className="mobileClose" aria-label="Close navigation" onClick={() => setMenuOpen(false)}>×</button>
+    <div className="mobile-nav-links">
+      {links.map(([label, href]) => <a key={href} href={href} onClick={() => setMenuOpen(false)}>{label}</a>)}
     </div>
-  )
-}
-const NavContent = ({setMenuOpen}) => (
-    <>
-        <h2>rohit.codes</h2>
-        <div>
-        <a href="#home" onClick={() => setMenuOpen(false)}>
-          Home
-        </a>
-        <a href="#about" onClick={() => setMenuOpen(false)}>
-          About
-        </a>
-        <a href="#work" onClick={() => setMenuOpen(false)}>
-          Projects
-        </a>
-        <a href="#techstacks" onClick={() => setMenuOpen(false)}>
-          Techstacks</a>
-        <a href="#contact" onClick={() => setMenuOpen(false)}>
-          Contact
-        </a>
-        </div>
-        <a href="mailto:rohitrajdav164@gmail.com">
-            <button>Email</button>
-        </a>
-    </>
+    <a className="nav-resume" href="mailto:rohitraj.jobs@gmail.com" onClick={() => setMenuOpen(false)}>Get in touch <span>↗</span></a>
+  </div>
 )
 
 export default Header
