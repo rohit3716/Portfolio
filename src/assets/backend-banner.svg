@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" fill="none">
+  <defs>
+    <linearGradient id="panel" x1="80" y1="70" x2="630" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172D55" stop-opacity=".84"/><stop offset="1" stop-color="#10172B" stop-opacity=".94"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="157" y1="88" x2="575" y2="393" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#43D8FF"/><stop offset="1" stop-color="#8A6CFF"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#173A70"/><stop offset="1" stop-color="#141C3A"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="b"/><feColorMatrix in="b" type="matrix" values="0 0 0 0 .08 0 0 0 0 .55 0 0 0 0 1 0 0 0 .65 0" result="c"/><feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+  <ellipse cx="373" cy="251" rx="257" ry="155" fill="#0759B6" opacity=".13" filter="url(#soft)"/>
+  <path d="M92 366 361 414l264-75-267-54L92 366Z" fill="#0D1830" stroke="#254978" stroke-opacity=".6"/>
+  <path d="m116 362 242 43 232-67M154 350l242 43 194-57M193 338l242 43 156-47M231 326l242 43 118-36M270 315l241 43 81-25M309 304l242 43" stroke="#274C7E" stroke-opacity=".35"/>
+  <path d="m138 358 224-65 225 47M180 382l223-65 224 48M223 405l223-64 223 46" stroke="#274C7E" stroke-opacity=".3"/>
+  <!-- service connections -->
+  <g stroke="url(#edge)" stroke-width="2" stroke-dasharray="5 8" opacity=".82">
+    <path d="M361 236 228 168M385 237 522 162M353 273 229 322M393 276 509 331M362 212 362 116M246 174 146 232M492 174 589 244"/>
+  </g>
+  <g fill="#57DFFF" filter="url(#glow)"><circle cx="294" cy="202" r="3.2"/><circle cx="453" cy="201" r="3.2"/><circle cx="292" cy="305" r="3.2"/><circle cx="454" cy="306" r="3.2"/><circle cx="362" cy="151" r="3.2"/></g>
+  <!-- API gateway -->
+  <g filter="url(#glow)">
+    <path d="m361 181 72 25v77l-72 26-72-26v-77l72-25Z" fill="url(#node)" stroke="#53D7FF" stroke-width="2"/>
+    <path d="m289 206 72 27 72-27M361 233v76" stroke="#53D7FF" stroke-opacity=".72"/>
+    <circle cx="361" cy="246" r="16" stroke="#55DEFF" stroke-width="2"/><path d="M352 246h18m-9-9v18" stroke="#55DEFF" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="361" y="278" text-anchor="middle" fill="#F2F8FF" font-family="Arial,sans-serif" font-size="12" font-weight="700">API GATEWAY</text>
+  <!-- Auth service -->
+  <g><path d="m222 126 47 16v49l-47 17-47-17v-49l47-16Z" fill="url(#node)" stroke="#4AAEFF" stroke-width="1.5"/><path d="m175 142 47 17 47-17m-47 17v49" stroke="#4AAEFF" stroke-opacity=".65"/><path d="M216 157v-5a6 6 0 0 1 12 0v5m-15 0h18v13h-18z" stroke="#71DFFF" stroke-width="1.5" stroke-linejoin="round"/><text x="222" y="184" text-anchor="middle" fill="#EAF5FF" font-family="Arial,sans-serif" font-size="10">AUTH</text></g>
+  <!-- Notification service -->
+  <g><path d="m522 120 48 17v49l-48 17-48-17v-49l48-17Z" fill="url(#node)" stroke="#8D79FF" stroke-width="1.5"/><path d="m474 137 48 17 48-17m-48 17v49" stroke="#8D79FF" stroke-opacity=".65"/><path d="M514 155h16v12h-16zm0 0 8 6 8-6" stroke="#A99BFF" stroke-width="1.5" stroke-linejoin="round"/><text x="522" y="184" text-anchor="middle" fill="#EAF5FF" font-family="Arial,sans-serif" font-size="9">NOTIFY</text></g>
+  <!-- User service -->
+  <g><path d="m222 282 47 16v47l-47 17-47-17v-47l47-16Z" fill="url(#node)" stroke="#4AAEFF" stroke-width="1.5"/><path d="m175 298 47 17 47-17m-47 17v47" stroke="#4AAEFF" stroke-opacity=".65"/><circle cx="222" cy="315" r="5" stroke="#71DFFF" stroke-width="1.5"/><path d="M212 331c1.5-7 18.5-7 20 0" stroke="#71DFFF" stroke-width="1.5" stroke-linecap="round"/><text x="222" y="343" text-anchor="middle" fill="#EAF5FF" font-family="Arial,sans-serif" font-size="10">USER SERVICE</text></g>
+  <!-- Order service -->
+  <g><path d="m509 287 48 17v49l-48 17-48-17v-49l48-17Z" fill="url(#node)" stroke="#8D79FF" stroke-width="1.5"/><path d="m461 304 48 17 48-17m-48 17v49" stroke="#8D79FF" stroke-opacity=".65"/><path d="M501 320h16v17h-16zm3-4v-3a5 5 0 0 1 10 0v3" stroke="#A99BFF" stroke-width="1.5" stroke-linejoin="round"/><text x="509" y="351" text-anchor="middle" fill="#EAF5FF" font-family="Arial,sans-serif" font-size="10">ORDER SERVICE</text></g>
+  <!-- database cylinders -->
+  <g><ellipse cx="119" cy="231" rx="32" ry="12" fill="#152C53" stroke="#51D8FF" stroke-width="1.5"/><path d="M87 231v56c0 7 14 13 32 13s32-6 32-13v-56M87 249c0 7 14 13 32 13s32-6 32-13M87 269c0 7 14 13 32 13s32-6 32-13" fill="url(#node)" stroke="#51D8FF" stroke-width="1.5"/><text x="119" y="276" text-anchor="middle" fill="#DFF8FF" font-family="Arial,sans-serif" font-size="9">MYSQL</text></g>
+  <g><ellipse cx="612" cy="244" rx="32" ry="12" fill="#152C53" stroke="#9A80FF" stroke-width="1.5"/><path d="M580 244v56c0 7 14 13 32 13s32-6 32-13v-56M580 262c0 7 14 13 32 13s32-6 32-13M580 282c0 7 14 13 32 13s32-6 32-13" fill="url(#node)" stroke="#9A80FF" stroke-width="1.5"/><text x="612" y="289" text-anchor="middle" fill="#EEE9FF" font-family="Arial,sans-serif" font-size="9">MONGODB</text></g>
+  <!-- client cloud -->
+  <g><path d="M334 67c0-10 8-18 18-18 7 0 13 4 16 10 2-1 5-2 8-2 10 0 18 8 18 18s-8 17-18 17h-42c-8 0-15-6-15-14 0-6 5-11 11-11 1 0 2 0 4 1Z" fill="#13264B" stroke="#50DFFF" stroke-width="1.8"/><path d="M361 92v20" stroke="#50DFFF" stroke-width="1.5" stroke-dasharray="3 4"/><text x="361" y="109" text-anchor="middle" fill="#B9EFFF" font-family="Arial,sans-serif" font-size="9">CLIENT REQUESTS</text></g>
+  <text x="361" y="449" text-anchor="middle" fill="#7897C6" font-family="Arial,sans-serif" font-size="10" letter-spacing="3">JAVA · SPRING BOOT · DISTRIBUTED SYSTEMS</text>
+</svg>
